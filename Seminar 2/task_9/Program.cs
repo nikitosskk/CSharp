@@ -11,6 +11,7 @@ int digit1 = number / 10;
 int digit2 = number % 10;
 Console.WriteLine($"Первое число = {digit1}, второе число = {digit2}");
 
+
 if (digit1 > digit2)
 {
     Console.WriteLine(digit1);
