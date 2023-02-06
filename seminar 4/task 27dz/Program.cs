@@ -7,12 +7,13 @@
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-int sum = 0;
-if (number <= 0) number = -number;
-while (number > 0)
-{
-    sum += number % 10;
-    number /= 10;
-}
+// int sum = 0;
+// if (number <= 0) number = -number;
+// while (number > 0)
+// {
+//     sum += number % 10;
+//     number /= 10;
+// }
 
-Console.WriteLine(sum);
+// Console.WriteLine(sum);
+

@@ -28,9 +28,9 @@ Console.Write("Введите число А: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введите степень В: ");
-int stepen = Convert.ToInt32(Console.ReadLine());
-int num = 1;
+int number1 = Convert.ToInt32(Console.ReadLine());
 
+int SumNumbers
 for (int i = 0; i < stepen; i++)
 {
     num = num * number;
